@@ -9,7 +9,6 @@ let beingDragged;
 
 function dragStart(e) {
   beingDragged = e.target;
-  console.log(beingDragged);
 }
 
 gamecells.forEach(gamecell => {
@@ -24,5 +23,4 @@ function dragDrop(e) {
 
 function dragOver(e) {
   e.preventDefault();
-  console.log(e);
 }
