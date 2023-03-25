@@ -13,21 +13,6 @@ div * {
   box-sizing: border-box;
 }
 
-#turn {
-  max-width: 451px;
-  max-height: 30px;
-  width: 100%;
-  height: 100%;
-  position: relative;
-  float: left;
-  border-right: 5px;
-  border: 1px solid rgb(0, 0, 0);
-  border-style: inset;
-  text-align: center;
-  background: white;
-  transition: 0.85s;
-}
-
 #game {
   max-width: 504px;
   max-height: 504px;
@@ -66,9 +51,9 @@ div * {
 .gamecell:hover {
   color: #fff;
   background-color: rgb(37, 88, 228, 0.7);
-  z-index: 2;
+  /* z-index: 2;
   transform: translate(10px, -10px);
-  animation: neon 0.5s ease-in-out infinite alternate;
+  animation: neon 0.5s ease-in-out infinite alternate; */
 }
 
 .brown {
